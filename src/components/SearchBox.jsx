@@ -7,7 +7,7 @@ export const SearchBox = () => {
 
     return (
         <div className="headind_srch">
-            <div className="recent_heading mt-2">
+            <div className="recent_heading mt-3">
                 <h4>{auth.name}</h4>
             </div>
             <div className="srch_bar">

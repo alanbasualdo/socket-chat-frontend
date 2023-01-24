@@ -13,7 +13,7 @@ export const AppRouter = () => {
     }, [verificarToken])
 
     if (auth.checking) {
-        return <h1>Espere por favor...</h1>
+        return <h1>Cargando...</h1>
     }
 
     return (
